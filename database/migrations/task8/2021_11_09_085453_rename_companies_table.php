@@ -13,7 +13,8 @@ class RenameCompaniesTable extends Migration
      */
     public function up()
     {
-        // TASK: add a migration to rename table "company" into "companies"
+        // TASK: add a migration to rename table "company" into "companies"'
+        Schema::rename('company', 'companies');
     }
 
     /**
